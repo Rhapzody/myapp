@@ -1,0 +1,9 @@
+extends layout.pug
+block append body
+    include mixin.pug
+    div Hello puggy!!
+        include include.pug
+        +list('data1')
+            ol
+                li data2
+                li data2
